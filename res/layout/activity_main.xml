@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/parameter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Data capturing is in progress.."
+        android:textColor="@android:color/darker_gray"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:fadeScrollbars="true"
+        android:maxLines="10000"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="12sp" />
+
+</LinearLayout>
